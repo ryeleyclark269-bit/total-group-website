@@ -681,3 +681,22 @@ section{ padding: 88px 0; }
   section{ padding: 64px 0; }
   .hero{ padding: 64px 0 90px; }
 }
+/* =========================================================
+   Status notice: site built, not live
+   ========================================================= */
+.site-notice{
+  background: var(--yellow);
+  color: var(--navy-900);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 8px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 14px;
+}
+.site-notice strong{
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
